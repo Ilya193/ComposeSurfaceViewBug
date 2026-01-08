@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        val layout = false
+        val layout = true
 
         if (layout) {
             setContentView(R.layout.activity_main)
